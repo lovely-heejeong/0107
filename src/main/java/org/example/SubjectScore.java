@@ -18,6 +18,7 @@ public class SubjectScore {
         s3.subject = "수학";
         s3.score = 40;
 
+        //SubjectScore타입 배열의 리모컨들이니까 int[] 대신 SubjectScore[]
         SubjectScore[] arr = {s1, s2, s3};
         System.out.println(arr[0].subject + "의 점수는 " + arr[0].score);
         System.out.println(arr[1].subject + "의 점수는 " + arr[1].score);

@@ -6,6 +6,12 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
+//        String s1 = "END";
+//        String s2 = new String("END");
+//
+//        System.out.println(s1 == s2);
+//        System.out.println(s1.equals(s2));
+
         //배열 선언
         int[] arr = new int [3]; //메모리의 크기 결정: 음수는 크기가 될 수 없다
 
