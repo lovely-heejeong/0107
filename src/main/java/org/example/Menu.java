@@ -32,6 +32,7 @@ public class Menu {
         System.out.println("M3");
         System.out.println(m3);
 
+        //그림으로 그려보기
         Menu[] menus = {m1, m2, m3};
 
         System.out.println(Arrays.toString(menus));
